@@ -19,7 +19,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
+import image from "../images/laptop_also.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,10 +32,10 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Djiscord 🐍👾",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Discord clone built with Django that allows users to create rooms and chat with other users in real time in a secure environment.",
+    url: "",
   },
   {
     title: "Web Development for Beginners",
@@ -45,8 +46,8 @@ const projectList = [
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My resume showcasing my skills, projects, and experience. ",
+    url: "https://docs.google.com/document/d/1MwNz1DTDzgVw1M2tGXBITgepAeqEDxRH3kj_hwrZ9vo/edit?usp=sharing",
   },
   {
     title: "GitHub Codespaces and github.dev",
