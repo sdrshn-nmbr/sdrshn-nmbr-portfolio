@@ -129,7 +129,7 @@ img.socialIcon {
   width: 30px;
 }
 
-/* add a slide in animation but only when you reach the image */
+/* add a slide in animation but only when user reaches the image */
 @keyframes slideIn {
   0% {
     opacity: 0;
@@ -139,4 +139,61 @@ img.socialIcon {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Education Section */
+section.education {
+  background-color: #f7f7f7;
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  border-bottom: 1px solid #ccc;
+  padding: 2rem 0;
+}
+
+.institution {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 1rem;
+  color: #888;
+}
+
+.additional-info {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.minor,
+.concentration {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.date {
+  font-size: 1rem;
+  color: #888;
 }

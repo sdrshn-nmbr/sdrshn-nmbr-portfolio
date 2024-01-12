@@ -24,18 +24,17 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Computer Engineering student studying at Purdue University - West Lafayette. I enjoy creating unique and simplistic user interfaces while creating complex backends for users to take advtange of.";
+  "I thrive on architecting intricate backends that empower users with advanced functionalities. My expertise lies in developing sophisticated systems, harmonizing robust backends with seamless and minimalist user interfaces. This fusion ensures not only a visually appealing experience but also a powerful and efficient interaction for users to leverage.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Fullstack Development",
+  "Reinforcement and Machine Learning",
   "Data Structures and Algorithms",
+  "Fullstack Development",
   "Microprocessors and Interfacing",
-  "Reinforcement Learning",
-  "Computer Security",
   "Robotics",
 ];
 
@@ -44,6 +43,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
+
 const detailOrQuote =
   "I am passionate about problem solving in new creative ways to drive innovation. By leveraging my technical abilities, I am constantly learning technologies that will aid me in the process to be an innovator and visionary.";
 

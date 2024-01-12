@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Education from "./Components/Education";
 
 import "./styles.css";
 
@@ -34,7 +35,6 @@ const siteProps = {
 };
 
 const primaryColor = "#4E567E";
-// const primaryColor = "##001F3F";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
@@ -42,6 +42,7 @@ const App = () => {
     <div id="main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
+      <Education />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
