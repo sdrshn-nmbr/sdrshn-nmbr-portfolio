@@ -37,12 +37,12 @@ const projectList = [
       "A Discord clone built with Django that allows users to create rooms and chat with other users in real time in a secure environment.",
     url: "",
   },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
+  // {
+  //   title: "Web Development for Beginners",
+  //   description:
+  //     "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+  //   url: "https://github.com/microsoft/web-dev-for-beginners",
+  // },
   {
     title: "My Resume Site",
     description:
