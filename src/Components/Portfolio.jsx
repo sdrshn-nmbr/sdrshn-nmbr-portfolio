@@ -49,12 +49,12 @@ const projectList = [
       "My resume showcasing my skills, projects, and experience. ",
     url: "https://docs.google.com/document/d/1MwNz1DTDzgVw1M2tGXBITgepAeqEDxRH3kj_hwrZ9vo/edit?usp=sharing",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  // {
+  //   title: "GitHub Codespaces and github.dev",
+  //   description:
+  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  // },
 ];
 
 const Portfolio = () => {
