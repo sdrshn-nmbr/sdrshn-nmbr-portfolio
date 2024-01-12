@@ -15,9 +15,9 @@ body {
 }
 
 /* add a smooth scroll effect */
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 div#main {
   display: flex;
