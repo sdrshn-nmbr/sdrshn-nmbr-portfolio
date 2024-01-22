@@ -27556,6 +27556,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                     email && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: `mailto:${email}`,
                         target: "_blank",
+                        rel: "noopener noreferrer",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _envelopeSvgDefault.default),
                             alt: "email",
@@ -27563,7 +27564,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
                             lineNumber: 65,
-                            columnNumber: 13
+                            columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
