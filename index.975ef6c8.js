@@ -27553,10 +27553,8 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                     gap: "2.5rem"
                 },
                 children: [
-                    email && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `mailto:${email}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
+                    email && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>window.open(`mailto:${email}`, "_blank"),
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _envelopeSvgDefault.default),
                             alt: "email",
@@ -27564,7 +27562,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
                             lineNumber: 65,
-                            columnNumber: 11
+                            columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
