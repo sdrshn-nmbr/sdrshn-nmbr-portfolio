@@ -50,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -61,9 +61,9 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">
-          <img src={envelopeIcon} alt="email" className="socialIcon" />
-        </a>
+          <button onClick={() => window.open(`mailto:${email}`, "_blank")}>
+            <img src={envelopeIcon} alt="email" className="socialIcon" />
+          </button>
         )}
         {devDotTo && (
           <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
