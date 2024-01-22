@@ -61,9 +61,14 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <button onClick={() => window.open(`mailto:${email}`, "_blank")}>
+          // make it so that the button doesnt have a translucent background
+          <button
+            onClick={() => window.open(`mailto:${email}`, "_blank")}
+            style={{ background: "transparent", border: "none", cursor: "pointer" }}
+          >
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </button>
+          // <a href="mailto:sdrshnnmbr@gmail.com" target="_blank" rel="noreferrer"><img src={envelopeIcon} alt="email" className="socialIcon" /></a>
         )}
         {devDotTo && (
           <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
