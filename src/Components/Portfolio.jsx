@@ -32,10 +32,10 @@ const imageAltText = "a laptop";
  */
 const projectList = [
   {
-    title: "Djiscord 🐍👾",
+    title: "Djitter🐥",
     description:
-      "A Discord clone built with Django that allows users to create rooms and chat with other users in real time in a secure environment.",
-    url: "",
+      "A Twitter clone built with Django that allows users to create chirps and interact with other users in real time in a secure environment using robust authentication.",
+    url: "https://github.com/sdrshn-nmbr/Djitter-The-Twitter-Clone",
   },
   // {
   //   title: "Web Development for Beginners",
@@ -44,17 +44,17 @@ const projectList = [
   //   url: "https://github.com/microsoft/web-dev-for-beginners",
   // },
   {
-    title: "My Resume Site",
+    title: "My Resume",
     description:
-      "My resume showcasing my skills, projects, and experience. ",
+      "...showcasing my skills, projects, and experience. ",
     url: "https://docs.google.com/document/d/1MwNz1DTDzgVw1M2tGXBITgepAeqEDxRH3kj_hwrZ9vo/edit?usp=sharing",
   },
-  // {
-  //   title: "GitHub Codespaces and github.dev",
-  //   description:
-  //     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-  //   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  // },
+  {
+    title: "{JSONify}",
+    description:
+      "A JSON parser and serializer in C to generate and validate JSON data from multiple source file formats with 100% accuracy",
+    url: "https://github.com/sdrshn-nmbr/JSONify",
+  },
 ];
 
 const Portfolio = () => {
