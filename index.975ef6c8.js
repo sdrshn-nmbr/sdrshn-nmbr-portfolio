@@ -28750,25 +28750,24 @@ const imageAltText = "a laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
+        title: "Outlify\uD83D\uDC56\uD83D\uDC5F",
+        description: "Developed an open-source AI powered application for personalized outfit suggestions by scanning user's wardrobe utilizing Multimodal LLMs, Flask and Supabase!",
+        url: "https://github.com/sdrshn-nmbr/Outlify"
+    },
+    {
         title: "Djitter\uD83D\uDC25",
         description: "A Twitter clone built with Django that allows users to create chirps and interact with other users in real time in a secure environment using robust authentication.",
         url: "https://github.com/sdrshn-nmbr/Djitter-The-Twitter-Clone"
-    },
-    // {
-    //   title: "Web Development for Beginners",
-    //   description:
-    //     "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    //   url: "https://github.com/microsoft/web-dev-for-beginners",
-    // },
-    {
-        title: "My Resume",
-        description: "...showcasing my skills, projects, and experience. ",
-        url: "https://docs.google.com/document/d/1MwNz1DTDzgVw1M2tGXBITgepAeqEDxRH3kj_hwrZ9vo/edit?usp=sharing"
     },
     {
         title: "{JSONify}",
         description: "A JSON parser and serializer in C to generate and validate JSON data from multiple source file formats with 100% accuracy",
         url: "https://github.com/sdrshn-nmbr/JSONify"
+    },
+    {
+        title: "My Resume",
+        description: "...showcasing my skills, projects, and experience. ",
+        url: "https://docs.google.com/document/d/1MwNz1DTDzgVw1M2tGXBITgepAeqEDxRH3kj_hwrZ9vo/edit?usp=sharing"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28783,7 +28782,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 63,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28809,12 +28808,12 @@ const Portfolio = ()=>{
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 66,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 65,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28833,12 +28832,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 79,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28846,30 +28845,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 83,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 79,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 64,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 62,
+        lineNumber: 61,
         columnNumber: 5
     }, undefined);
 };
