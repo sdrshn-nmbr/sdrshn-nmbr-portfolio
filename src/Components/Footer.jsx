@@ -61,7 +61,6 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          // make it so that the button doesnt have a translucent background
           <button
             onClick={() => window.open(`mailto:${email}`, "_blank")}
             style={{ background: "transparent", border: "none", cursor: "pointer" }}
